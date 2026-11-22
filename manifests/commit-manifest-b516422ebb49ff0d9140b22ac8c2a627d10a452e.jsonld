@@ -42,9 +42,15 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 378364
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/b516422ebb49ff0d9140b22ac8c2a627d10a452e/chunk-001.nq.gz",
+      "repolex:graphFileSize": 2614843
     }
   ],
-  "repolex:parseStatus": "metadata_complete",
+  "repolex:parseStatus": "ast_complete",
   "repolex:parsedAt": "2026-11-22T14:35:49.141853+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "salsa20-v0.11.0"
