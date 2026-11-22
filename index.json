@@ -1,0 +1,11 @@
+{
+  "org": "RustCrypto",
+  "repo": "stream-ciphers",
+  "versions": [
+    {
+      "commit": "b516422ebb49ff0d9140b22ac8c2a627d10a452e",
+      "tag": "salsa20-v0.11.0",
+      "parsed_at": "2026-11-22T14:42:28.153347+00:00"
+    }
+  ]
+}
