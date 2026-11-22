@@ -164,7 +164,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blobby-0.4.0/src/decode.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/b516422ebb49ff0d9140b22ac8c2a627d10a452e/chunk-001.nq.gz",
+      "dep": "dep/b516422ebb49ff0d9140b22ac8c2a627d10a452e.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
