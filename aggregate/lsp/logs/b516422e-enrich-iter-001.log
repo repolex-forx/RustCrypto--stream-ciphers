@@ -1,0 +1,20 @@
+[2026-11-22T14:39:27Z] === ENRICH ITERATION 1 START | repo=RustCrypto/stream-ciphers sha=b516422e ===
+[2026-11-22T14:39:27Z] [iter=1] PHASE START: enrich repo=RustCrypto/stream-ciphers sha=b516422e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b516422e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b516422ebb49ff0d9140b22ac8c2a627d10a452e.nq.gz
+[2026-11-22T14:39:27Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T14:39:29Z] [iter=1] AST store loaded triples=183097 load_secs=1 mem_mb=338 MB
+[2026-11-22T14:39:29Z] [iter=1] Step 2: Finding LSP targets mem_mb=338 MB
+[2026-11-22T14:39:29Z] [iter=1] LSP targets found call_sites=1358 imports=48 extends=0 implements=109 secs=0
+[2026-11-22T14:39:29Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=338 MB
+[2026-11-22T14:39:29Z] [iter=1] Position index built positions=12030 nodes_with_types=13891 secs=1 mem_mb=338 MB
+[2026-11-22T14:39:29Z] [iter=1] Step 3: Starting LSP resolution mem_mb=338 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T14:39:29Z] [iter=1] Resolving target type target_type=call_site count=1358
+[2026-11-22T14:39:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=4 resolved=188 errors=0 current=chacha20/tests/kats.rs
+[2026-11-22T14:40:15Z] [iter=1] Target type resolved target_type=call_site resolved=612 errors=0 secs=46 mem_mb=338 MB
+[2026-11-22T14:40:15Z] [iter=1] Resolving target type target_type=import_statement count=48
+[2026-11-22T14:40:28Z] [iter=1] Target type resolved target_type=import_statement resolved=36 errors=0 secs=13 mem_mb=338 MB
+[2026-11-22T14:40:28Z] [iter=1] Resolving target type target_type=implements_clause count=109
+[2026-11-22T14:40:28Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=chacha20/src/backends/avx2.rs
+[2026-11-22T14:40:37Z] [iter=1] Target type resolved target_type=implements_clause resolved=75 errors=0 secs=9 mem_mb=338 MB
+[2026-11-22T14:40:50Z] [iter=1] Step 5: Writing final enrichment file triples=9914
+[2026-11-22T14:40:50Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b516422ebb49ff0d9140b22ac8c2a627d10a452e.nq.gz size_kb=177
+[2026-11-22T14:40:50Z] [iter=1] PHASE END: enrich elapsed_s=83 elapsed_min=1.4 total_triples=9914

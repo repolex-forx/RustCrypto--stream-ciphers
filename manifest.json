@@ -87,6 +87,83 @@
       ],
       "ast": [
         "aggregate/ast/b516422ebb49ff0d9140b22ac8c2a627d10a452e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b516422ebb49ff0d9140b22ac8c2a627d10a452e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "hybrid-array",
+          "ecosystem": "CARGO",
+          "version": "0.4.9",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hybrid-array",
+          "githubCommit": "1cccda21548ebb317e6c3a0b47dbd70c746a0f84",
+          "githubTag": "v0.4.9",
+          "githubUrl": "https://github.com/RustCrypto/hybrid-array",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hybrid-array-0.4.9/src/lib.rs"
+        },
+        {
+          "packageName": "cipher",
+          "ecosystem": "CARGO",
+          "version": "0.5.1",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cipher-0.5.1/src/stream/core_api.rs"
+        },
+        {
+          "packageName": "hex-literal",
+          "ecosystem": "CARGO",
+          "version": "1.1.0",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-literal-1.1.0/src/lib.rs"
+        },
+        {
+          "packageName": "inout",
+          "ecosystem": "CARGO",
+          "version": "0.2.2",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inout-0.2.2/src/inout.rs"
+        },
+        {
+          "packageName": "crypto-common",
+          "ecosystem": "CARGO",
+          "version": "0.2.1",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crypto-common-0.2.1/src/lib.rs"
+        },
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1.0.4",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubCommit": "3510ca6abea34cbbc702509a4e50ea9709925eda",
+          "githubTag": "v1.0.4",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.4/src/lib.rs"
+        },
+        {
+          "packageName": "blobby",
+          "ecosystem": "CARGO",
+          "version": "0.4.0",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blobby-0.4.0/src/decode.rs"
+        }
       ]
     }
   ],
